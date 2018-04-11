@@ -1,0 +1,397 @@
+
+body {
+    font-family: 'Raleway',sans-serif;
+    position: relative;
+}
+.vertical-align{
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.special-color {
+	color: #3498db;
+}
+.color-white {
+	color: #fff;
+}
+.special-font {
+	font-style: italic;
+}
+/* ---------------------------
+   Header Style
+ ------------------------- */
+#header {
+    background: url(../images/programmer1.jpg) no-repeat center center fixed; 
+	color: #fff;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 30px;
+    z-index: -1;
+    background-blend-mode: overlay;
+   
+}
+/* -------------------
+ for change font section active on navbar
+---------------------- */
+.active {
+    font-size: 24px;
+    color: #3498db;
+    text-decoration: none;
+    line-height: 50px;
+}
+/* -------------------
+ for change color and opacity of navbar while scrolling
+---------------------- */
+.navbar {
+    -webkit-transition: all 0.6s ease-out;
+    -moz-transition: all 0.6s ease-out;
+    -o-transition: all 0.6s ease-out;
+    -ms-transition: all 0.6s ease-out;
+    transition: all 0.6s ease-out;
+}
+.navbar.scrolled {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+#header nav{
+	padding: 30px 0 0 0;
+}
+#header .navbar a{
+    color: #fff;
+    padding: 0px 15px;
+}
+
+#header .navbar a:hover{
+	color: #3498db;
+    text-decoration: none;
+    background-color: transparent;;
+}
+#header .navbar .brand {
+	font-size: 30px;
+}
+#header-content {
+	padding: 250px 0;
+}
+
+#header-content .btn{
+	padding: 15px 40px;
+	margin-top: 40px;
+	background-color: #097DB4;
+}
+#header-content h1{
+     font-size: 46px;
+}
+#social-icons {
+	color: #097DB4;
+}
+/* -------------------
+ Section About Style 
+---------------------- */
+#about img {
+	height: 100%;
+	width: 100%;
+}
+.about {
+	padding: 80px 40px;
+}
+#about {
+	background: url(../images/desk2.jpg) no-repeat center center fixed; 
+    top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: -1;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+#about #about-content {
+	background :none repeat scroll 0 0 rgba(0,0,0,.8);
+	padding: 15px 20px;
+	border-radius: 10px;
+	overflow: hidden;
+	margin: auto;
+	color: #fff;
+	display: block;
+}
+.about button {
+	font-size: 16px;
+	line-height: 32px;
+	letter-spacing: 1px;
+	padding: 15px 25px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.about p {
+	font-size: 16px;
+	line-height: 32px;
+	letter-spacing: 1px;
+	text-align: left;
+	font-weight: 500;
+}
+/* -------------------
+ Section Services Style 
+---------------------- */
+#services {
+	background-color: #E5E5E5;
+}
+#services i{
+	font-size: 50px;
+}
+#services #services-header {
+	margin-top: 80px;
+	margin-bottom: 30px;
+}
+#service-item {
+	margin: 30px 0px;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+    max-width: 100%;
+    max-height: 100%;
+}
+#services .feature {
+	padding: 30px 15px;
+	background-color: #F0F0F0;
+	box-shadow: 10px 10px 5px grey;
+	transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+}
+#services .feature:hover{
+	color: #fff;
+
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,2989d8+50,207cca+51,7db9e8+100 */
+background: #1e5799; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+#services .sub-title{
+	font-size: 14px;
+	letter-spacing: 1px;
+	font-weight: 300;
+	margin: 15px auto;
+	padding-left: 10px;
+	line-height: 25px;
+}
+
+/*------------------------------
+Section  Portfolio Style
+--------------------------------*/
+#portfolio .col-md-4{
+	padding: 0;
+}
+.portfolio-thumb,
+.portfolio-overlay{
+	height: 260px;
+	max-width: 564px;
+}
+
+#portfolio img{
+    max-width: 100%;
+    max-height: 100%;
+}
+#portfolio .portfolio-thumb{
+	overflow: hidden;
+	padding: 0;
+	margin: auto;
+}
+#portfolio .portfolio-thumb .portfolio-overlay{
+	opacity: 0;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	text-align: center;
+	position: absolute;
+	background: rgba(85,153,209,0.6);
+	padding: 20px 10px 20px 20px;
+	margin-left: auto;
+	margin-right: auto;
+	transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+}
+#portfolio .portfolio-thumb:hover .portfolio-overlay{
+    opacity: 1;
+    cursor: pointer;
+}
+#portfolio .portfolio-thumb .portfolio-overlay h2{
+	color: #fff;
+	font-weight: 300;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	display: inline-block;
+	padding: 5px 10px 10px 10px;
+}
+#portfolio .portfolio-thumb .portfolio-overlay a{
+	color: #fff;
+	font-size: 24px;
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+}
+/* -------------------
+ Section Hire me Style 
+---------------------- */
+#hire-me {
+	background-color: #000;
+	color: #fff;
+	padding: 80px 0;
+}
+#hire-me a{
+	padding: 10px 40px;
+	font-size: 20px;
+	margin-top: 40px;
+}
+#hire-me h1{
+	padding-top: 10px;
+}
+.client-form {
+	background-color: #F0F0F0;
+	padding: 10px 40px;
+}
+/* -------------------
+ Section Testimonials Style 
+---------------------- */
+#testimonials img{
+	max-height: 100%;
+	max-width: 100%;
+	border-radius: 50%;
+}
+#testimonials .rate{
+	color: #3C99FB;
+	font-size: 20px;
+	padding: 10px 0;
+}
+#testimonials .arrows{
+	font-size: 40px;
+	
+	padding-bottom: 80px;
+	padding-top: 10px;
+}
+#testimonials h1{
+	padding-top: 80px;
+	padding-bottom: 40px;
+}
+/* -------------------
+ Section Contact us Style 
+---------------------- */
+#contact{
+    background: url(../images/contact1.jpg) no-repeat center center fixed; 
+	color: #fff;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+   
+    z-index: -1;
+    background-blend-mode: overlay;
+
+}
+#contact label{
+	background-color: rgba(0,0,0,0.9);
+	color: #fff;
+	padding: 10px 10px;
+	border-radius: 6px;
+	min-width: 80%;
+}
+#contact label:hover{
+	background-color: #3C99FB;
+}
+#contact .form-data input{
+	background-color: rgba(0,0,0,0.9);
+	color: #fff;
+	padding: 10px 10px;
+	border-radius: 6px;
+	min-width: 100%
+
+}
+#contact .form-data textarea{
+	background-color: rgba(0,0,0,0.9);
+	color: #fff;
+	padding: 10px 10px;
+	border-radius: 6px;
+	min-width: 100%
+}
+#contact .form-data button{
+	min-width: 100%
+
+}
+#contact .contact-form{
+	padding: 40px 20px;
+}
+/* -------- -----------
+Section Footer Style 
+---------------------- */
+#footer {
+	background-color: #111;
+	padding: 60px 0;
+	color: #fff;
+}
+#footer a{
+	text-decoration: none;
+}
+#footer h4{
+	padding-top: 20px;
+}
+
+#footer i{
+	color: #fff;
+	border-color: #fff;
+	border: 1px;
+	border-radius: 2px;
+	border-style: solid;
+	margin: 5px;
+}
+#footer i:hover{
+	background-color: #3C99FB;
+}
+
+
+/* ----------------------
+Media queries for small devises like mobile 
+------------------------*/
+@media (min-width: 360px) and (max-width: 570px){
+   #services h1{
+   	font-size: 18px;
+   }
+}
+
+
+
+@media only screen and (max-width: 768px) { 
+    /* Nav */
+    .custom-navbar .navbar-toggle .icon-bar {
+        color:#3498db;
+        background-color:#3498db;
+    }
+ 
+}
